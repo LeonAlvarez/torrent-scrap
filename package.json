@@ -1,0 +1,17 @@
+{
+  "name": "torrent-scrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "got": "^9.2.2",
+    "jsonframe-cheerio": "^3.0.1"
+  }
+}
