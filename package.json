@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf dist/*",
+    "films": "node getFilms.js"
   },
-  "author": "",
+  "author": "LeonAlvarez",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
@@ -14,4 +15,5 @@
     "got": "^9.2.2",
     "jsonframe-cheerio": "^3.0.1"
   }
+  
 }
